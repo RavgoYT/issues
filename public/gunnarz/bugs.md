@@ -5,7 +5,7 @@ webhook: GUNNARZ
 active: true
 style: gunnarz
 fonts: mono, nunito, orbitron
-default_font: mono
+default_font: nunito
 ---
 
 ## Page 1 | Who Filed This
