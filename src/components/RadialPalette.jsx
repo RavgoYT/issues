@@ -10,8 +10,8 @@ const FONT_META = {
 
 // Given n items (theme + fonts), spread them in an arc from 240° → 90° (going counterclockwise)
 function getPositions(count) {
-  const startAngle = 240;
-  const endAngle = 90;
+  const startAngle = 200;
+  const endAngle = 30;
   // Go counterclockwise: 240 → 90 means decreasing angle
   const span = startAngle - endAngle; // 150°
   const step = count > 1 ? span / (count - 1) : 0;
